@@ -9,14 +9,14 @@ body{
   background-image: url(../images/page1.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+    background-size: cover;
+  background-attachment: fixed;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   flex-direction: column;
-  height: 700px;
-  max-width: 1100px;
+  height: 100vh;
   margin: 5px;
   font-family: 'Orbitron', sans-serif;
   font-size: 22px;
@@ -41,8 +41,8 @@ body{
   background-size: cover;
   display: flex;
   flex-direction: column;
-  height: 700px;
-  max-width: 1100px;
+  height: 100vh;
+  background-attachment: fixed;
   margin: 5px;
   font-family: 'Orbitron', sans-serif;
 }
@@ -88,8 +88,8 @@ li:hover{
   background-size: cover;
   display: flex;
   flex-direction: column;
-  height: 700px;
-  max-width: 1100px;
+  height: 100vh;
+  background-attachment: fixed;
   margin: 5px;
   font-family: 'Orbitron', sans-serif;
 }
@@ -112,15 +112,14 @@ h5{
 /* WORK SAMPLES PAGE */
 
 .sample{
-  background-image: url(../images/desk.avif
-  );
+  background-image: url(../images/desk.avif);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
   flex-direction: column;
-  height: 700px;
-  max-width: 1100px;
+  height: 100vh;
+  background-attachment: fixed;
   margin: 5px;
   font-family: 'Orbitron', sans-serif;
 }
@@ -163,8 +162,8 @@ h5{
   background-size: cover;
   display: flex;
   flex-direction: column;
-  height: 700px;
-  max-width: 1100px;
+  height: 100vh;
+  background-attachment: fixed;
   margin: 5px;
   font-family: 'Orbitron', sans-serif;
 }
