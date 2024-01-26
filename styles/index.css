@@ -346,11 +346,13 @@ hr{
 
   @media screen and (max-width: 320px) {
     .layout{
-      font-size: 15px;
+      font-size: 12px;
       font-weight: 900;
       background-position: right;
     }
-
+    .layout-title{
+      font-size: 12px;
+    }
     /* ABOUT */
     .about{
       font-size: 8px;
