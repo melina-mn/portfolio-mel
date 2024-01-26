@@ -258,7 +258,7 @@ hr{
 /* RESPONSIIVE */
 @media screen and (max-width:768px) and (min-width:320px){
   .layout{
-    font-size: 35px;
+    font-size: 20px;
     font-weight: 900;
     background-position: right;
   }
